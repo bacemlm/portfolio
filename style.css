@@ -1150,6 +1150,32 @@ body {
         grid-template-columns: 1fr;
         gap: 3rem;
     }
+    .about {
+        padding: 60px 0px;
+    }
+    .about .about-content .about-text p {
+        font-size: 0.9rem;
+        line-height: 1.6;
+        word-wrap: break-word;
+        padding: 0 20px;
+        margin-left: 10%;
+    }
+    .about .about-content .about-text h3{
+        margin-left: 10%;
+    }
+    .about .about-content .about-text h4{
+        margin-left: 10%;
+    }
+    .about .about-content .about-text .skill-tags{
+        margin-left: 10%;
+    }
+    .about .about-visual{
+        margin-right: 10%;
+    }
+    .scroll-indicator {
+        bottom: -3%;
+        transform: rotate(-90deg);
+    }
 }
 
 @media (max-width: 768px) {
@@ -1250,6 +1276,37 @@ body {
     .floating-card {
         display: none;
     }
+    .about {
+        padding: 60px 0px;
+    }
+    .about .about-content .about-text p {
+        font-size: 0.9rem;
+        line-height: 1.6;
+        word-wrap: break-word;
+        padding: 0 20px;
+        text-align: center;
+        margin-left: 25%;
+    }
+    .about .about-content .about-text h3{
+        text-align: center;
+        margin-left: 25%;
+    }
+    .about .about-content .about-text h4{
+        text-align: center;
+        margin-left: 25%;
+    }
+    .about .about-content .about-text .skill-tags{
+        margin-left: 25%;
+    }
+    .about .about-visual{
+        margin-right: 10%;
+    }
+    .scroll-indicator {
+        bottom: -3%;
+        transform: rotate(-90deg);
+    }
+    
+
 }
 
 @media (max-width: 480px) {
@@ -1269,6 +1326,45 @@ body {
     .contact-form {
         padding: 1.5rem;
     }
+    .container,
+    .about-content,
+    .hero-container,
+    .contact-content,
+    .portfolio-grid,
+    .services-grid {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .about {
+        padding: 60px 0px;
+    }
+    .about .about-content .about-text p {
+        font-size: 0.9rem;
+        line-height: 1.6;
+        word-wrap: break-word;
+        padding: 0 20px;
+        text-align: center;
+        margin-left: 25%;
+    }
+    .about .about-content .about-text h3{
+        text-align: center;
+        margin-left: 25%;
+    }
+    .about .about-content .about-text h4{
+        text-align: center;
+        margin-left: 25%;
+    }
+    .about .about-content .about-text .skill-tags{
+        margin-left: 25%;
+    }
+    .about .about-visual{
+        margin-right: 10%;
+    }
+    .scroll-indicator {
+        bottom: -3%;
+        transform: rotate(-90deg);
+    }
+
 }
 
 /* Animation Classes */
