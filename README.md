@@ -1,3 +1,9 @@
+<!-- Animated Header -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:007BFF,100:00D4FF&height=220&section=header&text=Bacem%20Lamloumi&fontSize=45&fontColor=ffffff&fontAlignY=40" />
+</p>
+
+
 # 🌐 Bacem Lamloumi — Portfolio
 
 Welcome to my personal portfolio website.  
@@ -65,51 +71,6 @@ _(More projects available on the portfolio page.)_
 
 ---
 
-## 📧 Contact
-
-If you’re interested in working together or want to discuss a project, feel free to reach out:
-
-- **Email:** lamloumibacem@gmail.com  
-- **Phone:** +216 27 357 191  
-- **Location:** Medenine, Tunisia  
-
-**Social Profiles**  
-- Behance  
-- GitHub  
-- LinkedIn  
-- Facebook  
-- Instagram  
-
----
-
-## 📄 License
-
-This project is publicly available for inspiration and learning.  
-Please do not copy or reuse the design/code for commercial use without permission.
-
----
-
-## 🙌 Acknowledgments
-
-Thanks for visiting my portfolio.  
-Feedback and suggestions are always welcome!
-
-![Food App](https://via.placeholder.com/900x450?text=Food+App+UI+Preview)
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=bacemlm&show_icons=true&theme=tokyonight&hide_border=true" />
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bacemlm&layout=compact&theme=tokyonight&hide_border=true" />
-
-</div>
-
----
-
 ## 📬 Contact Me
 
 - ✉️ **Email:** lamloumibacem@gmail.com  
@@ -117,12 +78,12 @@ Feedback and suggestions are always welcome!
 - 📍 Medenine, Tunisia  
 
 ### 🔗 Social
-- Behance  
-- GitHub  
-- LinkedIn  
-- Instagram  
-- Facebook  
 
+  - [LinkedIn](https://www.linkedin.com/in/bacem-lamloumi-3b0139399/)  
+  - [Facebook](https://www.facebook.com/BacemLm)  
+  - [Instagram](https://www.instagram.com/bacem_lm/)  
+
+Feel free to reach out if you want to collaborate!
 ---
 
 ## 📘 License
