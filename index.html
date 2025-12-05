@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bacem Lamloumi - Frontend Developer & Graphic Designer</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="head.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/head.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -29,6 +29,9 @@
                 </li>
                 <li class="nav-item">
                     <a href="#about" class="nav-link" data-text="About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link" data-text="Skills">Skills</a>
                 </li>
                 <li class="nav-item">
                     <a href="#services" class="nav-link" data-text="Services">Services</a>
@@ -105,17 +108,16 @@
             </div>
             <div class="hero-visual">
                 <div class="profile-container">
-                        <img src="head.png"  class="profile-img">
-                        <div class="profile-decoration"></div>
+                        <img src="images/head.png"  class="profile-img">
                     <div class="floating-elements">
                         <div class="floating-card card-1">
-                            <img src="vscode.png" alt="">
+                            <img src="images/vscode.png" alt="">
                         </div>
                         <div class="floating-card card-2">
-                            <img src="js.png">
+                            <img src="images/js.png">
                         </div>
                         <div class="floating-card card-3">
-                            <img src="ps.png">
+                            <img src="images/psd.png">
                         </div>
                     </div>
                 </div>
@@ -137,11 +139,20 @@
             <div class="about-content">
                 <div class="about-text">
                     <div class="text-block">
-                        <h3>Creative Problem Solver</h3>
-                        <p>
-                            With 3+ years of experience in both design and development, I bring a unique perspective 
-                            to every project. My background in graphic design gives me an eye for aesthetics, while 
-                            my technical skills ensure every design comes to life perfectly.
+                        <h3>Who is me ?</h3>
+                        <p>I am an Information Technology student with a passion for web development,
+                             graphic design, and digital media. As a Front-End Developer, 
+                             I create responsive and modern websites using HTML, CSS, and JavaScript. 
+                             As a Graphic Designer, I design logos, posters, social media content, 
+                             and UI/UX interfaces using Photoshop, Illustrator, and Figma.
+                             I gained valuable experience as a Media Officer for a football club,
+                              managing social media, creating visual content, and improving fan engagement.
+                               Additionally, my involvement in the Tunisian Scouts and JCI Médenine (Junior Cell) 
+                               strengthened my leadership, teamwork, and community service skills.
+                               I am a motivated, creative, and organized individual,
+                                eager to learn new technologies and contribute to impactful projects.
+                                 My goal is to grow professionally in web development, UI/UX design, 
+                                 and digital communication, delivering high-quality results in every project I undertake.
                         </p>
                     </div>
                    
@@ -159,6 +170,20 @@
                 </div>
                 <div class="about-visual">
                     <div class="experience-timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-year">2025</div>
+                            <div class="timeline-content">
+                                <h4>JavaScript Essential Training</h4>
+                                <p><a href="https://www.linkedin.com/learning/certificates/ea70e58fc16a864a5b4ff78298a3e60e8357364f479d0fab85146727d710fd76" target="_blank">Link</a></p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2025</div>
+                            <div class="timeline-content">
+                                <h4>C1 English Certificate by EFSET</h4>
+                                <p><a href="https://cert.efset.org/en/5WToHy" target="_blank">Link</a></p>
+                            </div>
+                        </div>
                         <div class="timeline-item">
                             <div class="timeline-year">2025</div>
                             <div class="timeline-content">
@@ -184,6 +209,29 @@
             </div>
         </div>
     </section>
+
+    <!-- Skills Slider Section -->
+    <section id="skills">
+        <div class="section-header">
+            <span class="section-subtitle">This is</span>
+            <h2 class="section-title">My Skills</h2>
+        </div>
+        <div class="slider" reverse="true" style="--width: 100px;--height: 100px;--quantity: 10;">
+            <div class="list">
+                <div class="item" style="--position: 1"><img src="images/html.png" alt=""></div>
+                <div class="item" style="--position: 2"><img src="images/css.png" alt=""></div>
+                <div class="item" style="--position: 3"><img src="images/psd.png" alt=""></div>
+                <div class="item" style="--position: 4"><img src="images/figma.png" alt=""></div>
+                <div class="item" style="--position: 5"><img src="images/java.png" alt=""></div>
+                <div class="item" style="--position: 6"><img src="images/illustrator.png" alt=""></div>
+                <div class="item" style="--position: 7"><img src="images/indesign.png" alt=""></div>
+                <div class="item" style="--position: 8"><img src="images/sass.png" alt=""></div>
+                <div class="item" style="--position: 9"><img src="images/canva.png" alt=""></div>
+                <div class="item" style="--position: 10"><img src="images/php.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Services Section -->
     <section id="services" class="services">
@@ -250,10 +298,77 @@
                 <button class="filter-btn" data-filter="design">Design</button>
                 <button class="filter-btn" data-filter="branding">Branding</button>
             </div>
+            
             <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <img src="images/goalkeeperV1.png" alt="Brand Identity">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>ASBK Official Jersey Design - GoalKeeper Kit</h3>
+                                <p>I had the opportunity to design the new official jersey (GoalKeeper) for 𝑨𝒔𝒔𝒐𝒄𝒊𝒂𝒕𝒊𝒐𝒏 𝑺𝒑𝒐𝒓𝒕𝒊𝒗𝒆 𝑩𝒆𝒏𝒊 𝑲𝒉𝒆𝒅𝒂𝒄𝒉𝒆.</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="portfolio-link"><i class="fas fa-images"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-tags">
+                            <span class="tag">Branding</span>
+                            <span class="tag">Fashion Design</span>
+                            <span class="tag">Sports Design</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <img src="images/kit1.png" alt="Brand Identity">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>ASBK Official Jersey Design - First Kit</h3>
+                                <p>I had the opportunity to design the new official jersey (First Kit) for 𝑨𝒔𝒔𝒐𝒄𝒊𝒂𝒕𝒊𝒐𝒏 𝑺𝒑𝒐𝒓𝒕𝒊𝒗𝒆 𝑩𝒆𝒏𝒊 𝑲𝒉𝒆𝒅𝒂𝒄𝒉𝒆.</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="portfolio-link"><i class="fas fa-images"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-tags">
+                            <span class="tag">Branding</span>
+                            <span class="tag">Fashion Design</span>
+                            <span class="tag">Sports Design</span>
+                        </div>
+                    </div>
+                </div>
+            <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <img src="images/kit2.png" alt="Brand Identity">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>ASBK Official Jersey Design - Second Kit</h3>
+                                <p>Excited to share the Second Kit for 𝗔𝘀𝘀𝗼𝗰𝗶𝗮𝘁𝗶𝗼𝗻 𝗦𝗽𝗼𝗿𝘁𝗶𝘃𝗲 𝗕𝗲𝗻𝗶 𝗞𝗵𝗲𝗱𝗮𝗰𝗵𝗲</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="portfolio-link"><i class="fas fa-images"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-tags">
+                            <span class="tag">Branding</span>
+                            <span class="tag">Fashion Design</span>
+                            <span class="tag">Sports Design</span>
+                        </div>
+                    </div>
+                </div>
                 <div class="portfolio-item" data-category="development">
                     <div class="portfolio-image">
-                        <img src="logo.png" alt="edukid">
+                        <img src="images/logo.png" alt="edukid">
                         <div class="portfolio-overlay">
                             <div class="portfolio-content">
                                 <h3>EDUKID - Quiz Game For Kids</h3>
@@ -276,7 +391,7 @@
 
                 <div class="portfolio-item" data-category="design">
                     <div class="portfolio-image">
-                        <img src="kidora.png" alt="Mobile App Design">
+                        <img src="images/kidora.png" alt="Mobile App Design">
                         <div class="portfolio-overlay">
                             <div class="portfolio-content">
                                 <h3>KIDORA</h3>
@@ -299,7 +414,7 @@
 
                 <div class="portfolio-item" data-category="branding">
                     <div class="portfolio-image">
-                        <img src="blservices.jpg" alt="Brand Identity">
+                        <img src="images/blservices.jpg" alt="Brand Identity">
                         <div class="portfolio-overlay">
                             <div class="portfolio-content">
                                 <h3>BL-Services Brand Identity</h3>
@@ -322,7 +437,7 @@
 
                 <div class="portfolio-item" data-category="development">
                     <div class="portfolio-image">
-                        <img src="askj.png" alt="Dashboard Application">
+                        <img src="images/askj.png" alt="Dashboard Application">
                         <div class="portfolio-overlay">
                             <div class="portfolio-content">
                                 <h3>ASKJ</h3>
@@ -346,7 +461,7 @@
                 
                 <div class="portfolio-item" data-category="design">
                     <div class="portfolio-image">
-                        <img src="panorama.png" alt="Mobile App Design">
+                        <img src="images/panorama.png" alt="Mobile App Design">
                         <div class="portfolio-overlay">
                             <div class="portfolio-content">
                                 <h3>Panorama</h3>
@@ -369,7 +484,7 @@
 
                 <div class="portfolio-item" data-category="development">
                     <div class="portfolio-image">
-                        <img src="hdiacamp.png" alt="Dashboard Application">
+                        <img src="images/hdiacamp.png" alt="Dashboard Application">
                         <div class="portfolio-overlay">
                             <div class="portfolio-content">
                                 <h3>HdiaCamp</h3>
