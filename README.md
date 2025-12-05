@@ -93,3 +93,46 @@ Please do not copy or reuse the design/code for commercial use without permissio
 
 Thanks for visiting my portfolio.  
 Feedback and suggestions are always welcome!
+
+![Food App](https://via.placeholder.com/900x450?text=Food+App+UI+Preview)
+
+---
+
+## 📊 GitHub Analytics
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=bacemlm&show_icons=true&theme=tokyonight&hide_border=true" />
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bacemlm&layout=compact&theme=tokyonight&hide_border=true" />
+
+</div>
+
+---
+
+## 📬 Contact Me
+
+- ✉️ **Email:** lamloumibacem@gmail.com  
+- 📞 **Phone:** +216 27 357 191  
+- 📍 Medenine, Tunisia  
+
+### 🔗 Social
+- Behance  
+- GitHub  
+- LinkedIn  
+- Instagram  
+- Facebook  
+
+---
+
+## 📘 License
+
+This project is published for educational and personal inspiration.  
+Commercial use is not allowed without permission.
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4FF,100:007BFF&height=140&section=footer" />
+</p>
+
