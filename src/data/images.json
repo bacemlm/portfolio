@@ -1,0 +1,177 @@
+{
+  "askj": {
+    "width": 1866,
+    "height": 883,
+    "widths": [
+      640,
+      1024,
+      1600
+    ],
+    "avif": true
+  },
+  "blservices": {
+    "width": 1080,
+    "height": 1080,
+    "widths": [
+      640,
+      1024,
+      1080
+    ],
+    "avif": true
+  },
+  "canva": {
+    "width": 500,
+    "height": 500,
+    "widths": [
+      96
+    ],
+    "avif": false
+  },
+  "css": {
+    "width": 487,
+    "height": 512,
+    "widths": [
+      96
+    ],
+    "avif": false
+  },
+  "edukid": {
+    "width": 500,
+    "height": 500,
+    "widths": [
+      500
+    ],
+    "avif": true
+  },
+  "figma": {
+    "width": 474,
+    "height": 527,
+    "widths": [
+      96
+    ],
+    "avif": false
+  },
+  "goalkeeperV1": {
+    "width": 3000,
+    "height": 1481,
+    "widths": [
+      640,
+      1024,
+      1600
+    ],
+    "avif": true
+  },
+  "hdiacamp": {
+    "width": 1862,
+    "height": 893,
+    "widths": [
+      640,
+      1024,
+      1600
+    ],
+    "avif": true
+  },
+  "html": {
+    "width": 487,
+    "height": 512,
+    "widths": [
+      96
+    ],
+    "avif": false
+  },
+  "illustrator": {
+    "width": 500,
+    "height": 500,
+    "widths": [
+      96
+    ],
+    "avif": false
+  },
+  "indesign": {
+    "width": 500,
+    "height": 500,
+    "widths": [
+      96
+    ],
+    "avif": false
+  },
+  "js": {
+    "width": 500,
+    "height": 500,
+    "widths": [
+      96
+    ],
+    "avif": false
+  },
+  "kidora": {
+    "width": 1000,
+    "height": 666,
+    "widths": [
+      640,
+      1000
+    ],
+    "avif": true
+  },
+  "kit1": {
+    "width": 3000,
+    "height": 1481,
+    "widths": [
+      640,
+      1024,
+      1600
+    ],
+    "avif": true
+  },
+  "kit2": {
+    "width": 3000,
+    "height": 1481,
+    "widths": [
+      640,
+      1024,
+      1600
+    ],
+    "avif": true
+  },
+  "panorama": {
+    "width": 1327,
+    "height": 836,
+    "widths": [
+      640,
+      1024,
+      1327
+    ],
+    "avif": true
+  },
+  "php": {
+    "width": 599,
+    "height": 417,
+    "widths": [
+      96
+    ],
+    "avif": false
+  },
+  "psd": {
+    "width": 500,
+    "height": 500,
+    "widths": [
+      96
+    ],
+    "avif": false
+  },
+  "sass": {
+    "width": 542,
+    "height": 460,
+    "widths": [
+      96
+    ],
+    "avif": false
+  },
+  "vscode": {
+    "width": 450,
+    "height": 450,
+    "widths": [
+      96
+    ],
+    "avif": false
+  }
+}

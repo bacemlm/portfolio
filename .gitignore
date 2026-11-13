@@ -1,0 +1,15 @@
+node_modules
+dist
+.DS_Store
+*.local
+.env
+.env.*
+!.env.example
+.ssr
+
+# Local AI tooling (skills, agents, MCP config). .codex/config.toml holds an API key: never commit it.
+.claude/
+.agents/
+.codex/
+.mcp.json
+skills-lock.json
